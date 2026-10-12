@@ -1,0 +1,22 @@
+[
+  {
+    "id": "solar-1",
+    "language": "English",
+    "prompt": "Explain in English how solar panels produce electricity. Use two short sentences."
+  },
+  {
+    "id": "solar-2",
+    "language": "Yoruba",
+    "prompt": "Explain in Yoruba how solar panels produce electricity. Use two short sentences."
+  },
+  {
+    "id": "solar-3",
+    "language": "Hausa",
+    "prompt": "Explain in Hausa how solar panels produce electricity. Use two short sentences."
+  },
+  {
+    "id": "solar-4",
+    "language": "Igbo",
+    "prompt": "Explain in Igbo how solar panels produce electricity. Use two short sentences."
+  }
+]
