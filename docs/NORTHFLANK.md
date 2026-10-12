@@ -40,3 +40,14 @@ The standalone application has no built-in login or request quotas. Use Northfla
 Switch to the previous DrainWatch image and restore the recorded source, environment links, command, health-check, and port settings. A source change does not erase the old repository or database. The old DrainWatch frontend will stop serving its original API workflows while this service is running AtlasLaunch.
 
 References: [Northflank deployment guide](https://northflank.com/docs/v1/application/getting-started/build-and-deploy-your-code), [Next.js standalone output](https://nextjs.org/docs/app/api-reference/config/next-config-js/output).
+
+## Deployment record — 12 October 2026
+
+- URL: https://p01--drainwatch-api--v8qxqym2945f.code.run
+- Service reused: `drainwatch-api` inside project `drainwatch`; generated hostname retained.
+- Code commit: `ae642ad8f16f27810315b241dc6bb815542bebdf`; successful build: `magical-card-1028`.
+- Northflank showed one running instance, 1/1 readiness checks passing and no restarts. Initial observed memory was approximately 132 MB of the existing 256 MB allocation; this is not a load-test result.
+- External HTTP checks returned 200 for `/`, `/health`, and `/atlaslaunch-starter.zip`. A new authenticated Modal inference was not performed during this deployment. Cloud-browser policy prevented a rendered-page test of the code.run URL.
+- Old DrainWatch build retained for rollback: `cute-cannon-1405`, commit `dd2776553b5270da45a758386d78974cf72056e1`, repository `pmman-sudo/drainwatch.`, branch `main`, build context `/backend`, Dockerfile `/backend/Dockerfile`, HTTP port 8000, readiness path `/health`, default image command.
+- `aidledger-api`, `drainwatch-db`, and Vercel projects were not changed. Existing DrainWatch runtime variables were retained for rollback and are not used by AtlasLaunch. They can be removed after the migration is accepted; do not delete the database to remove a service's configuration.
+- The free project reports built-in basic-auth/IP policies require a paid project. This deployment therefore has public web UI access, not the earlier ChatGPT site's access controls; live requests still require the Modal endpoint key. No endpoint key is embedded in the frontend or image.

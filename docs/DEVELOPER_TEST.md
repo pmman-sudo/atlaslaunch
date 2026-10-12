@@ -19,7 +19,7 @@ Use a fresh browser tab and work independently before reading the other tester's
 
 Choose **one** route.
 
-### Route A — Run locally (recommended for developers)
+### Route A — Run locally (optional for developers)
 
 Install Git and Node.js **24** with npm if needed. Accept the repository invitation and sign into GitHub when prompted. In PowerShell or a terminal, run:
 
@@ -38,7 +38,7 @@ If `git clone` says the repository cannot be found, check that you accepted the 
 
 ### Route B — Use the hosted app
 
-Open [the hosted workbench](https://atlaslaunch.pauliyen248.chatgpt.site) after Paul has arranged access. Repository access and website access are separate. If access is denied, report it; do not assume the model endpoint is broken. Record “hosted app” in your feedback rather than guessing its commit.
+Open [AtlasLaunch on Northflank](https://p01--drainwatch-api--v8qxqym2945f.code.run). This is the simplest route for the trial: no installation or ChatGPT account is needed. The address still contains the old DrainWatch service name because AtlasLaunch reuses that service slot. For live inference, ask Paul for the endpoint API key privately. Record “Northflank hosted app” in your feedback. The older ChatGPT-hosted site is a separate deployment and is not required for this trial.
 
 ## 2. Connect to the live model
 

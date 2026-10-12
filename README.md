@@ -14,7 +14,8 @@ Built by **Paul Iyen**. Independent project; not an official NCAIR product.
 - The hosted workbench completed five live requests: one playground request and four language smoke tests on **11 October 2026**.
 - All five requests completed without errors; this is transport success, **not 100% answer accuracy**.
 - The exported report contains preliminary AI review notes. **Zero human quality scores and zero external developer tests** are included so far.
-- [Hosted workbench](https://atlaslaunch.pauliyen248.chatgpt.site) — currently owner-private; contact the owner for arranged access.
+- [Northflank workbench](https://p01--drainwatch-api--v8qxqym2945f.code.run) — deployed 12 October 2026; no ChatGPT account needed. Enter the endpoint API key privately supplied by the owner for live inference.
+- The earlier [ChatGPT-hosted workbench](https://atlaslaunch.pauliyen248.chatgpt.site) is a separate deployment with its own access controls.
 
 See [evidence and limitations](docs/EVIDENCE.md). The report is an owner-supplied export, not independent verification of the served weights.
 
@@ -109,7 +110,7 @@ The proxy allows HTTPS hosts under `*.modal.run` and `*.endpoints.huggingface.cl
 - Obtain fluent-speaker reviews of language quality.
 - Add persistence, comparison workflows, authentication, and request quotas before a wider launch.
 
-See [GitHub publishing steps](docs/PUBLISH_TO_GITHUB.md). No GitHub repository URL is claimed until the upload succeeds.
+Source: [pmman-sudo/atlaslaunch](https://github.com/pmman-sudo/atlaslaunch). See [Northflank deployment settings](docs/NORTHFLANK.md).
 
 ## Attribution and license status
 
