@@ -116,4 +116,5 @@ Source: [pmman-sudo/atlaslaunch](https://github.com/pmman-sudo/atlaslaunch). See
 
 N-ATLaS is an initiative of the Federal Ministry of Communications, Innovation and Digital Economy, and powered by Awarri Technologies. Model reference: [NCAIR1/N-ATLaS](https://huggingface.co/NCAIR1/N-ATLaS).
 
-No model weights are included. Access and use of the model remain subject to its separate terms. Third-party packages retain their own licenses. A redistribution license for the AtlasLaunch application has not yet been selected; this preparation does not grant an open-source license.
+No model weights are included. Access and use of the model remain subject to its separate terms. Third-party packages retain their own licenses. The AtlasLaunch application is licensed under Apache License 2.0; see [LICENSE](LICENSE). Copyright 2026 Paul Iyen.
+
